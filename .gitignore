@@ -2,3 +2,6 @@
 01_Data/
 02_Prepared_Data/
 03_Scripts/.ipynb_checkpoints/
+anaconda_projects/
+*.zip
+04_Visualisations/NY_Citibike_2022.html
