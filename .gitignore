@@ -1,6 +1,12 @@
 .ipynb_checkpoints/
 01_Data/
-02_Prepared_Data/
+02_Prepared_Data/final_df.pkl
+02_Prepared_Data/final_df_clean.pkl
+02_Prepared_Data/kepler_clean_csv.csv
+02_Prepared_Data/kepler_csv.csv
+02_Prepared_Data/new_merged.pkl
+02_Prepared_Data/new_merged_profile.pkl
+02_Prepared_Data/reduced_df.csv
 03_Scripts/.ipynb_checkpoints/
 anaconda_projects/
 *.zip
