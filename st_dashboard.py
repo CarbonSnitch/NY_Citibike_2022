@@ -188,7 +188,7 @@ elif page == 'Interactive map with aggregated bike trips':
     st.markdown(" -**S 4 St & Wythe Ave**")
     st.markdown(" -**Pier 40 - Hudson River Park**")
 
-     st.header("Heatmap of Rental vs Deposit Mismatch")
+    st.header("Heatmap of Rental vs Deposit Mismatch")
     st.image(
         "04_Visualisations/Heatmap_NY_mapped.png",
         use_column_width=True
