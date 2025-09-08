@@ -202,8 +202,10 @@ elif page == 'Interactive map with aggregated bike trips':
 else:
     
     st.header("Conclusions and recommendations")
-    bikes = Image.open("BIKEIMAGE.png")  #source: https://perchance.org/ai-text-to-image-generator
-    st.image(bikes)
+    st.image(
+        "04_Visualisations/Heatmap_NY_mapped.png",
+        use_container_width=True
+    )
     st.markdown("### Our analysis has shown that Citibike should focus on the following objectives moving forward to address customer complaints about lack of rental bikes available:")
     st.markdown("- Be prepared for heavier bike-rental usage starting in May and going up until mid-November. If warmer temperatures are happeneing outside these months then heavier bike-usage may also happen")
     st.markdown("- Ensure that bike build-up is prevented as much as possible. This should focus on moving bikes from areas of low-rental/high drop-off to areas of high-rental. Stations to which bikes should be picked-up and droppoed-off can be seen in the table below. ")
