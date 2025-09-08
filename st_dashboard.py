@@ -191,7 +191,7 @@ elif page == 'Interactive map with aggregated bike trips':
     st.header("Heatmap of Rental vs Deposit Mismatch")
     st.image(
         "04_Visualisations/Heatmap_NY_mapped.png",
-        use_column_width=True
+        use_container_width=True
     )
     st.markdown(
         "This image repeats what is shown in the interactive map but via a heatmap, "
