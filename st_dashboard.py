@@ -32,7 +32,7 @@ page = st.sidebar.selectbox('Select an aspect of the analysis',
 
 ########################## Import data ###########################################################################################
 
-path = r"C:\Users\ryani\Desktop\JupyterLab\NY_Citibike_2022"
+path = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(path, '02_Prepared_Data', 'sampled_24mb.csv'), index_col = 0)
 top20 = pd.read_csv(os.path.join(path, '02_Prepared_Data', 'top20.csv'), index_col = 0)
 df_top = pd.read_csv(os.path.join(path, '02_Prepared_Data', 'sampled_top_trips.csv'), index_col = 0)
